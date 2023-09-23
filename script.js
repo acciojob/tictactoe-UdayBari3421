@@ -2,8 +2,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     const board = document.getElementById("board");
     const message = document.getElementById("message");
-    const player1Input = document.getElementById("player-1");
-    const player2Input = document.getElementById("player-2");
+    const player1Input = document.getElementById("player1");
+    const player2Input = document.getElementById("player2");
     const submitButton = document.getElementById("submit");
     let currentPlayer = "X";
     let gameOver = false;
