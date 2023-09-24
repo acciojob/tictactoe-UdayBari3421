@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             if (checkWin()) {
                 gameOver = true;
-                message.textContent = `${currentPlayer} congratulations, you won!`;
+                message.textContent = `${currentPlayer} congratulations you won!`;
             } else {
                 currentPlayer = currentPlayer === "X" ? "O" : "X";
                 message.textContent = `${currentPlayer === "X" ? player1Input.value : player2Input.value}, you're up!`;
@@ -66,6 +66,6 @@ document.addEventListener("DOMContentLoaded", function () {
         player1Input.disabled = true;
         player2Input.disabled = true;
         submitButton.disabled = true;
-        message.textContent = `${player1Input.value}, you're up!`;
+        message.textContent = `${player1Input.value}, you're up`;
     });
 });
