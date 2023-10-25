@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', function () {
             let player1Name, player2Name;
 
             submitButton.addEventListener('click', function () {
-                player1Name = document.getElementById('player-1').value;
-                player2Name = document.getElementById('player-2').value;
+                player1Name = document.getElementById('player1').value;
+                player2Name = document.getElementById('player2').value;
 
                 container.removeChild(submitButton);
                 container.removeChild(document.getElementById('player-1'));
